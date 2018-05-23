@@ -41,7 +41,7 @@ class TicTacToe
   end
   
   
-  def move()
+  def move(pos, token)
     
     
   end
