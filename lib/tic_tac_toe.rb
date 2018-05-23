@@ -89,7 +89,9 @@ end
 end
   
   
-  
+  def full?()
+  @board.all?{|occupied| occupied != " "}
+end
   
   
   
