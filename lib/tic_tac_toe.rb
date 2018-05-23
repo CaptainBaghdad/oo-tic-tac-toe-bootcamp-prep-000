@@ -53,7 +53,7 @@ class TicTacToe
   
   
   def valid_move?(index)
-     @board[index] == " " && input_to_index(index) >= 0
+     @board[index] == " " && index >= 0
      
      
      
